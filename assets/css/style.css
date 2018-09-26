@@ -3,70 +3,121 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body{
-	background-image: url(../images/background.jpg);
+	background-image: url("../images/background.png");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat:repeat;
 	font-family: 'Fira Sans', sans-serif;
 	}
 
 h1{
-	margin-top: 10px;
-	letter-spacing: 2px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 	color: white;
+	font-family: 'Merriweather', serif;
+	padding-top: 100px;
 }
-h2{
+h2	{
 	letter-spacing: 2px;
 	color: yellow;
+	font-family: 'Merriweather', serif
 }
 
 .about{
-	color:white;
+	color: #F9F9F9;
 	width: 100%;
-	font-size: 15px;
+	font-size: 25px;
 	line-height:1.5;
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Courgette', cursive;
 }
 #me{
 
- 	height: 250px;
-	width: 250px;
+ 	height: 300px;
+	width: 300px;
 	border-radius: 50%;
 	border-style: solid;
 	border-width: 5px;
-	border-color: white;
-	margin-top: 50px;
+	border-color: #F9F9F9;
+	margin-top: 100px;
 
 }
 .footer{
-	color: red;
-
+	color: #F9F9F9;
+	text-align: center;
 }
 
 .container{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	background-color: black;
-	border: 2px solid white;
+	height: 100%;
 }
 
-.info {
-	border: 3px solid white;
-	height: 100%
-}
-
-.row1 {
-	height: 150px;
+h3 {
+	color: #F9F9F9;
+	font-family: 'Merriweather', serif;
 }
 
 .row2 {
-	height: 500px;
+	padding-top: 50px;
+	height: 400px;
 }
 
-.cln {
-	border: 1px solid white;
+.footer {
+	font-family: 'Work Sans', sans-serif;
 }
 
-.sidebar {
+.row {
+	height: 900px;
+}
+
+p {
+	font-family: 'Work Sans', sans-serif;
+}
+
+.capstone {
+	font-family: 'Courgette', cursive;
+	font-size: 25px;
 	color: white;
+}
+
+.capstone:hover {
+
+}
+
+@media only screen and (max-width: 400px){
+	h1 {
+		font-size: 25px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.about {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 451px) and (max-width: 768px){
+	h1 {
+		font-size: 30px;
+	}
+
+	h2 {
+		font-size: 20px;
+	}
+
+	.about {
+		font-size: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 769px){
+	
 }
