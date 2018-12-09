@@ -1,123 +1,88 @@
+/* CSS Reset */
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Bree Serif', serif;
 }
 
-body{
-	background-image: url("../images/background.png");
-	background-size: cover;
-	background-repeat:repeat;
-	font-family: 'Fira Sans', sans-serif;
-	}
+/*General Styles*/
 
-h1{
-	margin-bottom: 0;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: white;
-	font-family: 'Merriweather', serif;
-	padding-top: 100px;
-}
-h2	{
-	letter-spacing: 2px;
-	color: yellow;
-	font-family: 'Merriweather', serif
+h2 {
+	color: #050505;
 }
 
-.about{
-	color: #F9F9F9;
-	width: 100%;
-	font-size: 25px;
-	line-height:1.5;
+.rounded-circle {
+	border: 5px solid #e6db74;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #050505;
+  line-height: 1.5em;
+  background-color: #050505;
+}
+
+.jumbotron {
+	background-color: #fffff2;
 	text-align: center;
+}
+
+#capstone-projects{
+	height: 150px;
+	width: 150px;
 	padding-top: 30px;
-	font-family: 'Courgette', cursive;
-}
-#me{
-
- 	height: 300px;
-	width: 300px;
-	border-radius: 50%;
-	border-style: solid;
-	border-width: 5px;
-	border-color: #F9F9F9;
-	margin-top: 100px;
-
-}
-.footer{
-	color: #F9F9F9;
-	text-align: center;
+	border: 3px solid #050505;
 }
 
-.container{
-	width: 100%;
+
+.project-div {
 	margin: 0 auto;
+}
+
+#about, #skills, #work, #contact {
 	text-align: center;
-	height: 100%;
 }
 
-h3 {
-	color: #F9F9F9;
-	font-family: 'Merriweather', serif;
+.linkedin {
+	color: #0077b5;
 }
 
-.row2 {
-	padding-top: 50px;
-	height: 400px;
+.github {
+	color: #6e5494;
 }
 
-.footer {
-	font-family: 'Work Sans', sans-serif;
+.fcc {
+	color: #006400;
 }
 
-.row {
-	height: 900px;
+
+/*Footer Section Styles*/
+footer {
+	position: static;
+	bottom: 0;
+	width: 100%;
+	background-color: #272822;
+	text-align: center;
+	color: #f8f8f2;
 }
 
-p {
-	font-family: 'Work Sans', sans-serif;
+footer {
+	padding: 1em 0;
+}
+footer a {
+	text-decoration: none;
+	color: #f8f8f2;
 }
 
-.capstone {
-	font-family: 'Courgette', cursive;
-	font-size: 25px;
-	color: white;
+footer a:hover {
+	text-decoration: none;
+	color: #272822;
+	font-weight: 700;
+	background-color: #e6db74;
 }
 
-.capstone:hover {
-
-}
-
-@media only screen and (max-width: 400px){
-	h1 {
-		font-size: 25px;
-	}
-
-	h2 {
-		font-size: 20px;
-	}
-
-	.about {
-		font-size: 15px;
-	}
-}
-
-@media only screen and (min-width: 451px) and (max-width: 768px){
-	h1 {
-		font-size: 30px;
-	}
-
-	h2 {
-		font-size: 20px;
-	}
-
-	.about {
-		font-size: 20px;
-	}
-
-}
-
-@media only screen and (max-width: 769px){
-	
-}
